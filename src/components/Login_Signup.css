@@ -1,0 +1,93 @@
+*{
+box-sizing: border-box;
+   
+    
+}
+.body{
+    background-image: url(./images/Screenshot-1612-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    margin-top: 6rem;
+    margin-left: 20rem;
+    margin-right: 20rem;
+
+}
+
+.loginBox{
+    background-color: aqua;
+   height: auto;
+   width:410px;
+    border: 3px solid rgb(184, 149, 149);
+    padding: 0px 30px 30px 30px;
+    font-size: x-large;
+    margin-right: 50px;
+    border-radius: 10px;
+    box-shadow: 1px 0px 0px 1px ;
+    opacity: 0.8;
+}
+
+.signup{
+    background-color: aqua;
+    border: 3px solid rgb(184, 149, 149);
+    padding: 0px 50px 30px 50px;
+    font-size: x-large;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px ;
+    opacity: 0.8;    
+}
+
+form{
+    padding-top: 20px;
+    font-weight: 700;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.title{
+    text-align: center;
+}
+input{
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.submit{
+    border-radius: 30px;
+    height: 2.5rem;
+    width:10rem;
+}
+
+.submit:hover{
+    background-color: rgb(243, 119, 119);
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.form_content{
+    margin: 0px 20px 20px 20px;
+}
+
+.hideShow{
+    font-size:small;
+    margin-left: 5px;
+
+}
+.hideShow:hover{
+    cursor: pointer;
+    color: rgb(243, 119, 119);
+}
+
+
+    
+
+
+
